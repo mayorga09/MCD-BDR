@@ -23,6 +23,7 @@ La base de datos estará compuesta por información relacionada con una empresas
 ### Tabla de Producción
 - Job 
 - Orden de Venta 
+- Numero de Lote
 - Vendedor
 - Cliente  
 - sku  
@@ -49,8 +50,8 @@ La base de datos estará compuesta por información relacionada con una empresas
 - Toneladas entregadas
 
 ### Tabla de Cliente
-- Cliente_id
 - Cliente
+- Nombre
 - Dirección 
 - Fecha de Alta
 - Estatus
@@ -72,6 +73,7 @@ A continuación, se presenta el tipo de dato que se propone para cada variable:
 - Job: cadena de caracteres
 - Orden de Venta: entero
 - Cliente : cadena de carcateres
+- Numero de Lote: entero
 - sku  : entero
 - toneladas ordenadas : flotante 
 - toneladas fabricadas: flotante 
@@ -95,8 +97,8 @@ A continuación, se presenta el tipo de dato que se propone para cada variable:
 - Toneladas entregadas: flotante
 
 ### Tabla de Cliente
-- Cliente_id: entero
-- Cliente: cadena de caracteres
+- Cliente: entero
+- Nombre: cadena de caracteres
 - Dirección: cadena de caracteres
 - Fecha de Alta: date
 - Estatus: booleano
