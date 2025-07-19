@@ -1,5 +1,3 @@
-CREATE DATABASE Propasa;
-
 -- Tabla: Clientes
 CREATE TABLE Clientes (
     Cliente SERIAL PRIMARY KEY,
@@ -50,7 +48,7 @@ CREATE TABLE Producción (
     ancho NUMERIC(10, 2),
     largo NUMERIC(10, 2),
     fechadeproducción DATE,
-    FOREIGN KEY (NúmerodeLote) REFERENCES Facturas(NúmerodeLote)
+    NúmerodeLote_p int
 );
 
 -- Tabla: Facturas
@@ -68,5 +66,5 @@ CREATE TABLE Facturas (
     Número_de_Remisión INT,
     ToneladasOrdenadas NUMERIC(10, 2),
     Toneladasentregadas NUMERIC(10, 2),
-    FOREIGN KEY (NúmerodeLote) REFERENCES Producción(NúmerodeLote)
+    NúmerodeLote_f int
 );
