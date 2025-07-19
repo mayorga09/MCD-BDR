@@ -31,7 +31,7 @@ CREATE TABLE Ordenes (
     fecha_de_Alta DATE,
     fecha_de_embarque_requerida DATE,
     fecha_de_producción_requerida DATE,
-    Venta_de_Inventario DATE
+    Venta_de_Inventario BOOLEAN
 );
 
 -- Tabla: Producción
