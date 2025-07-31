@@ -4,6 +4,7 @@
 - [Tarea 3](Tarea3.md)
 - [Tarea 4 y 5](Tarea4y5.md)
 - [Tarea 6](Tarea6.md)
-- [Tarea 7]
-- [Tarea 8]
+- [Tarea 7](Tarea7.md)
+- [Tarea 8](Tarea8.md)
+- [Tarea 9]
 - [PIA](/PIA%20-%20BDR%20.pptx7)
